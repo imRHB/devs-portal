@@ -1,0 +1,17 @@
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+}
+.title {
+    text-align: center;
+    font-size: 48px;
+}
+.description {
+    text-align: center;
+}
+.market-value {
+    text-align: center;
+    font-size: 24px;
+    color: lightblue;
+}
