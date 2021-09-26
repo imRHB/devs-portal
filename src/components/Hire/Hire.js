@@ -10,12 +10,17 @@ const Hire = (props) => {
     };
 
     return (
-        <div className="hired-dev-card">
-            <h3>Hired Dev: {hiredDev.length}</h3>
-            {
-                hiredDev?.map(dev => <Card dev={dev}></Card>)
-            }
-            <h2 style={{ textAlign: 'center' }}>Total Cost: ${totalCost}</h2>
+        <div>
+            <div className="hired-dev-info">
+                <h3>Hired Dev: {hiredDev.length}</h3>
+                {
+                    hiredDev?.map(dev => <Card dev={dev}></Card>)
+                }
+            </div>
+            <div className="hired-dev-card">
+
+                <h2 style={{ textAlign: 'center' }}>Total Cost: ${totalCost}</h2>
+            </div>
         </div>
     );
 };
