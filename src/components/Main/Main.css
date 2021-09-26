@@ -7,3 +7,31 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+@media only screen and (max-width: 992px) {
+    .main-container {
+        grid-template-columns: 2fr 1fr;
+    }
+    .devs-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .devs-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .devs-container {
+        display: block;
+        z-index: 2;
+    }
+    .main-container {
+        display: block;
+    }
+}

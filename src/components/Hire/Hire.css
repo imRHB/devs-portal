@@ -7,3 +7,9 @@
     border-radius: 4px;
     box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.4);
 }
+
+@media only screen and (max-width: 576px) {
+    .hired-dev-card {
+        z-index: inherit;
+    }
+}

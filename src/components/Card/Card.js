@@ -14,7 +14,7 @@ const Card = (props) => {
                 <img className="card-img" src={img} alt="" />
             </div>
             <div className="dev-short-info">
-                <h2 style={shortCardStyle}>{name}</h2>
+                <h3 style={shortCardStyle}>{name}</h3>
                 <p style={shortCardStyle}>{position}, {country}</p>
             </div>
         </div>

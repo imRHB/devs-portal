@@ -11,7 +11,7 @@ const Hire = (props) => {
 
     return (
         <div className="hired-dev-card">
-            <h3>Hired Dev: {props.hiredDev.length}</h3>
+            <h3>Hired Dev: {hiredDev.length}</h3>
             {
                 hiredDev?.map(dev => <Card dev={dev}></Card>)
             }
