@@ -1,0 +1,12 @@
+.details-card {
+    display: flex;
+    border-radius: 4px;
+}
+.card-img {
+    width: 56px;
+    height: 56px;
+    border-radius: 4px;
+}
+.dev-short-info {
+    margin: 0 0 20px 12px;
+}

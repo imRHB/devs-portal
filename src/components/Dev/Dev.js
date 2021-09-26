@@ -1,4 +1,4 @@
-import { faCode, faHome, faPlus, faPlusCircle, faPlusSquare, faRssSquare, faSquare } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faPlusCircle } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Dev.css';
@@ -12,7 +12,7 @@ const Dev = (props) => {
         <div className="dev-card">
             <img className="dev-img" src={img} alt="" />
             <h2>{name}</h2>
-            <p>{age}</p>
+            <p>{age} Years</p>
             <p>{work} {position} at <strong>{company}</strong></p>
             {/* <p>{company}</p> */}
             <p>From <strong>{country}</strong></p>
