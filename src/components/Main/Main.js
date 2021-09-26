@@ -16,7 +16,7 @@ const Main = () => {
     const handleHire = dev => {
         const newHiredDev = [...hiredDev, dev];
         setHiredDev(newHiredDev);
-    }
+    };
 
     return (
         <div className="main-container">

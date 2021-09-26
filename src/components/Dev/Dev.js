@@ -6,8 +6,9 @@ import './Dev.css';
 const Dev = (props) => {
     const { name, img, age, company, position, country, salary } = props.dev;
 
-    const work = <FontAwesomeIcon icon={faCode} />
-    const add = <FontAwesomeIcon icon={faPlusCircle} />
+    const work = <FontAwesomeIcon icon={faCode} />;
+    const add = <FontAwesomeIcon icon={faPlusCircle} />;
+
     return (
         <div className="dev-card">
             <img className="dev-img" src={img} alt="" />

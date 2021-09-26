@@ -6,7 +6,8 @@ const Card = (props) => {
 
     const shortCardStyle = {
         margin: 0,
-    }
+    };
+
     return (
         <div className="details-card">
             <div>
