@@ -18,7 +18,6 @@ const Hire = (props) => {
                 }
             </div>
             <div className="hired-dev-card">
-
                 <h2 style={{ textAlign: 'center' }}>Total Cost: ${totalCost}</h2>
             </div>
         </div>

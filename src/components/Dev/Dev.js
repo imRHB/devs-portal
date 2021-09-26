@@ -18,6 +18,7 @@ const Dev = (props) => {
             <p>{work} {position} at <strong>{company}</strong></p>
             <p>From <strong>{country}</strong></p>
             <p><strong>Salary:</strong> ${salary}</p>
+
             <button
                 onClick={() => props.handleHire(props.dev)}
                 className="btn btn-hire"
