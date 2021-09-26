@@ -8,6 +8,7 @@ To hire top class web developer, visit [Devs Portal](https://prantu-ph-assignmen
  - Top class web developers profile added with their current working state
  - Hiring is available based on their yearly salary
  - Best service by the top class devs
+ - Certified web developer, verified by Programming Hero
 
 
  ### Resource
