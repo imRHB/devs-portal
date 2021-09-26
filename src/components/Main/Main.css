@@ -29,7 +29,6 @@
 @media only screen and (max-width: 576px) {
     .devs-container {
         display: block;
-        z-index: 2;
     }
     .main-container {
         display: block;
