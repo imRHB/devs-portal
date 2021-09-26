@@ -6,6 +6,7 @@
 .title {
     text-align: center;
     font-size: 48px;
+    text-shadow: 4px 4px 20px blueviolet;
 }
 .description {
     text-align: center;
