@@ -1,6 +1,6 @@
 # Devs Portal
 
-To hire top class web developer, visit [Devs Portal](https://prantu-ph-assignment-react-devs-portal.netlify.app/).
+To hire top class web developer, visit [Devs Portal](https://prantu-ph-assignment-react-devs-portal.netlify.app/)
 
 
 ## Project Overview

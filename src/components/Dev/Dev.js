@@ -15,7 +15,6 @@ const Dev = (props) => {
             <h2>{name}</h2>
             <p>{age} Years</p>
             <p>{work} {position} at <strong>{company}</strong></p>
-            {/* <p>{company}</p> */}
             <p>From <strong>{country}</strong></p>
             <p><strong>Salary:</strong> ${salary}</p>
             <button
